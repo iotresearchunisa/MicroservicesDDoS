@@ -11,7 +11,7 @@ The prevalence of microservice architectures in contemporary software developmen
 - [@Pietro Fusco](https://docenti.unisa.it/064613/home)
 - [@Antonio Guerriero](https://www.docenti.unina.it/#!/professor/414e544f4e494f47554552524945524f4752524e544e39324d3036483933314c/riferimenti)
 - [@Roberto Pietrantuono](https://www.docenti.unina.it/#!/professor/524f424552544f5049455452414e54554f4e4f50545252525438305332344632323448/riferimenti)
-- @Marco Russo
+- [@Marco Russo](https://www.linkedin.com/in/marco-russo-ba4b95167/)
 - [@Stefano Russo](https://www.docenti.unina.it/#!/professor/53544546414e4f525553534f52535353464e36335032304638333959/riferimenti)
 
 ## Mention our work
