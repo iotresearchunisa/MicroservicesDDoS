@@ -1,7 +1,34 @@
 
-# A Benchmark for DDoS Attacks Detection in Microservice Architectures
+# DDoS Attack Detection in Microservices Architectures
 
-The prevalence of microservice architectures in contemporary software development is increasing due to their capacity for scalability and flexibility. However, this architectural style presents several security challenges, particularly in the identification and mitigation of cyber attacks. This paper presents different datasets designed to serve as a benchmark for the evaluation of attack detection strategies for microservice applications. The datasets contains both normal and malicious traffic patterns. The data were collected from widely used benchmark microservice systems, which interacted with various services via standard protocols and application programming interface (API) gateways. Each entry is marked to distinguish between benign and malicious activities. In addition to the raw data, the datasets also contains metadata detailing microservice configurations, the nature of the simulated attacks, and the time sequence of events. The provision of these datasets is intended to facilitate the development of advanced detection algorithms and promote more effective security measures in microservice environments.
+## Overview
+This repository contains datasets and code for benchmarking and evaluating DDoS attack detection strategies in microservices applications. The datasets include both normal and malicious traffic patterns, simulating real-world scenarios with various types of attacks. The dataset is designed for training and evaluating machine learning models for intrusion detection.
+
+## Repository Structure
+```
+Dataset/
+├── Classic DDoS/         # Classic DDoS attack dataset
+├── No attacks/            # Normal traffic dataset
+├── Slow DDoS/             # Slow DDoS attack dataset
+├── SYN Flood/             # SYN Flood attack dataset
+├── GET Flood/             # GET Flood attack dataset
+├── filenames.txt          # List of dataset file names
+├── labels.csv             # Labels for classification
+
+```
+
+## Dataset Description
+The datasets were collected using a microservices-based benchmark system, *TrainTicket*, under different attack scenarios and normal traffic conditions. The following attack types are included:
+- **Classic DDoS**: Overwhelming traffic floods the system.
+- **Slow DDoS**: Maintains open connections for extended periods to exhaust resources.
+- **SYN Flood**: Exploits the TCP handshake process to overwhelm the target.
+- **GET Flood**: Sends excessive HTTP GET requests to exhaust the server’s resources.
+
+Each dataset contains:
+- **Container Usage Metrics**: CPU, Memory, Network I/O, Resource Limits
+- **System Status Metrics**: Pod Restarts, CPU Throttling, Pod Status
+- **Time-Series Data**: Metrics collected every 5 seconds over 30-minute periods
+
 ## Documentation
 
 ...
@@ -16,8 +43,11 @@ The prevalence of microservice architectures in contemporary software developmen
 
 ## Mention our work
 ```
-@InProceedings{Ficco2024,
-    
+@article{DDoS_microservices,
+  author    = {M. Ficco and P. Fusco and A. Guerriero and R. Pietrantuono and M. Russo and F. Palmieri and S. Russo},
+  title     = {A Benchmark for DDoS Attacks Detection in Microservice Architectures},
+  journal   = {ICNC 2025},
+  year      = {2025}
 }
 
 
