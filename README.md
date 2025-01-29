@@ -12,6 +12,7 @@ Dataset/
 ├── Slow DDoS/             # Slow DDoS attack dataset
 ├── SYN Flood/             # SYN Flood attack dataset
 ├── GET Flood/             # GET Flood attack dataset
+├── PreprocessedData.zip/   # Aggregated dataset used for Example of Use
 ├── labels.csv             # Labels for classification
 
 ```
