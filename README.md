@@ -12,7 +12,6 @@ Dataset/
 ├── Slow DDoS/             # Slow DDoS attack dataset
 ├── SYN Flood/             # SYN Flood attack dataset
 ├── GET Flood/             # GET Flood attack dataset
-├── filenames.txt          # List of dataset file names
 ├── labels.csv             # Labels for classification
 
 ```
@@ -55,8 +54,6 @@ The datasets were collected using a microservices-based benchmark system, *Train
   journal   = {ICNC 2025},
   year      = {2025}
 }
-
-
 ```
 ## Acknowledgements
 
