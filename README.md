@@ -24,14 +24,20 @@ The datasets were collected using a microservices-based benchmark system, *Train
 - **SYN Flood**: Exploits the TCP handshake process to overwhelm the target.
 - **GET Flood**: Sends excessive HTTP GET requests to exhaust the server’s resources.
 
-Each dataset contains:
-- **Container Usage Metrics**: CPU, Memory, Network I/O, Resource Limits
-- **System Status Metrics**: Pod Restarts, CPU Throttling, Pod Status
-- **Time-Series Data**: Metrics collected every 5 seconds over 30-minute periods
+## Monitoring Metrics
+### CAdvisor ([Documentation](https://github.com/google/cadvisor/blob/master/docs/storage/prometheus.md))
+- **ContainerUsage**: Number of bytes consumed by the container on this filesystem.
+- **CPUThrottling**: Total time duration the container has been throttled.
+- **CPUUsage**: CPU quota of the container.
+- **MemoryUsage**: Current memory usage, including all memory regardless of when it was accessed.
+- **NetworkIO**: Cumulative count of bytes received/transmitted.
+- **PacketsDropped**: Cumulative count of packets dropped while receiving.
 
-## Documentation
+### Kube-state-metrics ([Documentation](https://github.com/kubernetes/kube-state-metrics/blob/main/docs/metrics/workload/pod-metrics.md))
+- **PodReady**: Describes whether the pod is ready to serve requests.
+- **ResourceLimits**: The number of requested limit resources by a container.
+- **PodStatus (Restarts)**: The number of container restarts per container.
 
-...
 ## Authors
 
 - [@Massimo Ficco](https://docenti.unisa.it/058291/home)
