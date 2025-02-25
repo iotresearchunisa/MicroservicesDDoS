@@ -1,5 +1,5 @@
 
-# DDoS Attack Detection in Microservices Architectures
+# Datasets for DDoS Attack Detection in Microservices Architectures
 
 ## Overview
 This repository contains datasets and code for benchmarking and evaluating DDoS attack detection strategies in microservices applications. The datasets include both normal and malicious traffic patterns, simulating real-world scenarios with various types of attacks. The dataset is designed for training and evaluating machine learning models for intrusion detection.
