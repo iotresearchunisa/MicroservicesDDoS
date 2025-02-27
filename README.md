@@ -7,7 +7,7 @@ This repository contains datasets and code for benchmarking and evaluating DDoS 
 The following figure depicts the architecture of the framework developed
 for data collection and monitoring microservices-based systems. 
 
-![k8sArch drawio_2](https://github.com/user-attachments/assets/03ee7b04-4f91-4f5a-9aa6-14e81ee50952)
+![TinyML-Short](https://github.com/user-attachments/assets/02cc86ca-3dfd-4ccc-bd73-e136eaf814f6)
 
 ## Repository Structure
 ```
